@@ -1,0 +1,16 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore Python cache & temp files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+*.log
+
+# Ignore all CSV files and raw data folders
+Data/*.csv
+Data/raw_5min_csvs/
+*.csv
